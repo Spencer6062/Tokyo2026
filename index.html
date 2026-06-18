@@ -162,6 +162,20 @@
             margin-right: 5px;
         }
 
+        .badge-tobu {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #002D62;
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 3px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
         /* 住宿指示特殊卡片 */
         .hotel-header-card {
             background: linear-gradient(135deg, #FDF9F6 0%, #F5ECE5 100%);
@@ -586,7 +600,7 @@
         <p>2026.10.29 - 11.03</p>
     </header>
 
-    <!-- 快速概要資訊 (費用已精準修正) -->
+    <!-- 快速概要資訊 -->
     <div class="summary-banner">
         <span><i class="fa-solid fa-plane"></i> 去程: TPE-NRT IT200 06:35-10:35</span>
         <span><i class="fa-solid fa-plane-arrival"></i> 回程: NRT-TPE IT203 20:25-23:30</span>
@@ -899,7 +913,7 @@
                             <h5><i class="fa-solid fa-person-walking"></i> 精選前往方式</h5>
                             <ul>
                                 <li><strong>【方案 A】絕美散步路線（約 15-20 分鐘）：</strong> 穿過近年超熱門的 <strong>SUMIDA RIVER WALK（隅田川步道橋）</strong>，沿途可欣賞隅田川美景與宏偉的晴空塔身影，隨後漫步至 <strong>TOKYO Mizumachi</strong> 鐵道高架下商店街，直達晴空塔。</li>
-                                <li><strong>【方案 B】電車 1 站直達：</strong> 於「淺草」站搭乘 <span class="badge-tobu" style="display: inline-flex; align-items: center; justify-content: center; background-color: #002D62; color: white; font-size: 10px; font-weight: bold; padding: 2px 6px; border-radius: 3px; vertical-align: middle; margin-right: 5px;">東武</span> 東武晴空塔線，只需 <strong>1 站 (3 分鐘)</strong> 即可抵達「TOKYO SKYTREE」站，單人票價約 160 円。</li>
+                                <li><strong>【方案 B】電車 1 站直達：</strong> 於「淺草」站搭乘 <span class="badge-tobu">東武</span> 東武晴空塔線，只需 <strong>1 站 (3 分鐘)</strong> 即可抵達「TOKYO SKYTREE」站，單人票價約 160 円。</li>
                             </ul>
                         </div>
                     </div>
@@ -929,16 +943,86 @@
                 <div class="timeline-item">
                     <span class="time-tag">16:00 - 傍晚</span>
                     <div class="schedule-card">
-                        <h3><i class="fa-solid fa-hotel" style="color:var(--primary-color);"></i> 東京晴空塔 (TOKYO SKYTREE) & 購物中心閒晃</h3>
-                        <p>先在大型購物中心「東京天空町 (Solamachi)」逛街（有吉卜力共和國、寶可夢中心、Kirby Cafe 紀念品店等豐富動漫店），隨後登上展望台迎接壯麗的夕陽與漸落的魔幻時刻夜景。</p>
+                        <h3><i class="fa-solid fa-hotel" style="color:var(--primary-color);"></i> 東京晴空塔觀景台 (TOKYO SKYTREE)</h3>
+                        <p>登上展望台迎接壯麗的夕陽與漸落的魔幻時刻夜景。</p>
                         <div class="info-panel" style="border-color: #E76F51; background-color: #FFF9F7;">
                             <h5 style="color: #E76F51;"><i class="fa-solid fa-clock"></i> 晴空塔登塔・防踩雷核心注意事項</h5>
                             <ul>
                                 <li><strong>掌握 10 月底黃金夕陽時刻：</strong> 東京在 10/30 的日落時間約為 <strong>16:45</strong>。強烈建議將門票預約在 <strong>16:00 或 16:30 入場</strong>。</li>
                                 <li><strong>一定要提前 30 分鐘到場排隊：</strong> 雖然是預約票，但黃金落日時段人潮極多，光是安檢及排隊搭乘高速電梯往往需要 20-30 分鐘，千萬別踩線到場，以免在電梯裡錯過日落。</li>
                                 <li><strong>網上預約門票最省時划算：</strong> 現場買票不僅排隊人龍常達 60-90 分鐘，熱門時段更會完全售罄！建議提前於網路（如 Klook/KKday 等官方合作通路）購買「350m 天望甲板 + 450m 天望回廊」組合票，出示手機 QR Code 即可直接通關。</li>
-                                <li><strong>行李箱禁止攜帶登塔：</strong> 大於登機箱尺寸的行李不允許帶上展望台。晴空塔 1樓、2樓 及 4樓 入口處皆設有投幣式行李置物櫃，建議先行寄放。</li>
-                                <li><strong>防風防霧預案：</strong> 若當日遭遇大霧或強風，頂層天望回廊（450m）可能會暫時關閉，登塔前可先於一樓大廳螢幕確認能見度與開放狀態。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 晴空塔城內部防迷路導航指南 -->
+                <div class="timeline-item">
+                    <span class="time-tag">⚠️ 晴空塔城內部防迷路指南</span>
+                    <div class="schedule-card" style="border: 2px solid #D4A373; background-color: #FCFAF7;">
+                        <h3><i class="fa-solid fa-compass" style="color:var(--primary-color);"></i> 墨田水族館 ➡️ 觀景台 ➡️ 鰻魚飯 最佳走法</h3>
+                        <p>晴空塔城 (Solamachi) 佔地極廣，且分為西庭 (West Yard)、中庭 (Tower Yard) 與東庭 (East Yard)。請跟著以下指引移動，保證不迷路：</p>
+                        
+                        <div class="info-panel" style="border-color: #8A3026; background-color: #FFF9F8;">
+                            <h5 style="color: #8A3026;"><i class="fa-solid fa-location-arrow"></i> 內部極速切換動線</h5>
+                            <ul>
+                                <li><strong>第一步【水族館 ➡️ 觀景台入口】：</strong> 
+                                    從 <strong>西庭 (West Yard) 5F</strong> 的墨田水族館出口走出來，搭乘手扶梯<strong>降至 4F</strong>。沿著室內通道一直往建築中央的 <strong>中庭「塔庭 (Tower Yard)」</strong> 走去，即可直接抵達 4F 晴空塔天望甲板入口大廳。
+                                </li>
+                                <li style="margin-top: 8px;"><strong>第二步【觀景台出口 ➡️ 名古屋備長鰻魚飯】：</strong> 
+                                    觀景台高速電梯下降的出口位於 <strong>5F 的塔庭 (Tower Yard)</strong>。出電梯後請往右方走，前往 <strong>東庭 (East Yard)</strong>，隨後搭乘手扶梯<strong>升至 6F</strong> 的「Solamachi Dining（11番地）」，名古屋備長鰻魚飯就在此！
+                                </li>
+                                <li style="margin-top: 8px;"><strong>第三步【吃飽後 ➡️ 百貨閒晃】：</strong> 
+                                    吃完熱騰騰的鰻魚飯後，可以直接在 6F 下樓。1F 至 5F 橫跨東中西三庭皆是 Solamachi 的精華購物街，此時最適合悠閒漫步。
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 晚餐：鰻魚飯 -->
+                <div class="timeline-item">
+                    <span class="time-tag">18:30</span>
+                    <div class="schedule-card">
+                        <h3><i class="fa-solid fa-bowl-food" style="color:var(--accent-color);"></i> 晚餐：ひつまぶし名古屋 備長 (鰻魚三吃)</h3>
+                        <p>這是一家極具盛名的名古屋鰻魚飯專賣店！不採用一般的關東蒸烤法，而是採取直火碳烤，外皮焦香酥脆、魚肉蓬鬆細緻。獨特的「鰻魚三吃（原味、配料、茶泡飯）」絕對是神級美味。</p>
+                        <div class="action-buttons">
+                            <a href="https://reurl.cc/mpVdyA" class="btn-link btn-tabelog" target="_blank"><i class="fa-solid fa-utensils"></i> Tabelog 預約連結</a>
+                            <a href="https://reurl.cc/ppzDve" class="btn-link btn-map" target="_blank"><i class="fa-solid fa-map-pin"></i> Google Map</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 晴空塔百貨閒晃 -->
+                <div class="timeline-item">
+                    <span class="time-tag">20:00</span>
+                    <div class="schedule-card">
+                        <h3><i class="fa-solid fa-bag-shopping" style="color:#E76F51;"></i> 晴空塔百貨 Solamachi 閒晃購物</h3>
+                        <p>晚餐過後在商場大肆購物：推薦前往 4F 東庭 (East Yard) 日本伴手禮大街，或造訪寶可夢中心 (2F)、吉卜力橡子共和國等動漫精品專賣區。</p>
+                    </div>
+                </div>
+
+                <!-- 隅田川夜景散步 -->
+                <div class="timeline-item">
+                    <span class="time-tag">21:15</span>
+                    <div class="schedule-card">
+                        <h3><i class="fa-solid fa-person-walking-lucide" style="color:#007ec7;"></i> 隅田川步道夜色散步 ➡️ 淺草雷門夜巡</h3>
+                        <p>購物完畢後，從晴空塔出發步行走回淺草：經由 <strong>SUMIDA RIVER WALK（隅田川步道橋）</strong>，邊吹著微涼的秋風，邊欣賞在夜色中發出幻彩點燈的隅田川與晴空塔。走回淺草雷門，此時人潮褪去，可以靜靜欣賞宏偉的雷門大燈籠與參道在深夜亮燈後的空靈、莊嚴美景。</p>
+                    </div>
+                </div>
+
+                <!-- 阿美橫町(備用) -->
+                <div class="timeline-item">
+                    <span class="time-tag">22:00</span>
+                    <div class="schedule-card">
+                        <h3><i class="fa-solid fa-beer-mug-empty" style="color:#D4A373;"></i> 【精力與時間許可備案】阿美橫町 (上野)</h3>
+                        <p>如果您此時體力依然滿點，可以從淺草搭乘 <span class="badge-metro">Metro</span> 銀座線只需 <strong>3站 (5分鐘)</strong> 即可直達「上野」站逛阿美橫町。</p>
+                        <div class="info-panel">
+                            <h5><i class="fa-solid fa-triangle-exclamation"></i> 阿美橫町深夜注意事項</h5>
+                            <ul>
+                                <li>阿美橫町的普通零食藥妝店、衣服雜貨多在 <strong>20:00 ~ 21:00</strong> 陸續關門打烊。</li>
+                                <li><strong>22:00 後前去：</strong> 主要是體驗露天海鮮大排檔、居酒屋街的夜生活氛圍，或造訪 24 小時營業的藥妝店及唐吉訶德。</li>
+                                <li><strong>返程民宿交通：</strong> 從「上野御徒町」站搭乘 <span class="badge-toei">都營</span> 大江戶線，<strong>只需 4 站 (8 分鐘)</strong> 即可直達「東新宿」站民宿。</li>
                             </ul>
                         </div>
                     </div>
@@ -1092,7 +1176,7 @@
                                 <tbody>
                                     <tr>
                                         <td><strong>【方案A】<br>避開大魔王電車線</strong></td>
-                                        <td>「舞濱站」搭 <span class="badge-jr">JR</span> 京葉線至「新大久保/新木場」➡️ 轉乘 <span class="badge-metro">Metro</span> 有樂町線至「飯田橋」➡️ 轉乘 <span class="badge-toei">都營</span> 大江戶線回「東新宿」站。</td>
+                                        <td>「舞濱站」搭 <span class="badge-jr">JR</span> 京葉線至「新木場」➡️ 轉乘 <span class="badge-metro">Metro</span> 有樂町線至「飯田橋」➡️ 轉乘 <span class="badge-toei">都營</span> 大江戶線回「東新宿」站。</td>
                                         <td>約 55 分鐘</td>
                                         <td>約 600 円 / 人</td>
                                         <td><strong>極度重要：</strong> 絕對<strong>不要</strong>搭到「東京車站」轉乘！東京車站京葉線轉乘其他地鐵的地下道步行時間長達 15-20 分鐘，且人潮會擠爆，千萬要避開！</td>
